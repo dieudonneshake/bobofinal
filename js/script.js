@@ -59,6 +59,142 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    
+  // Replace the existing product filtering code with this:
+ const filterButtons = document.querySelectorAll('.filter-btn');
+ const productCards = document.querySelectorAll('.product-card');
+ const categoryTitles = document.querySelectorAll('.category-title');
+
+ filterButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        const filterValue = this.getAttribute('data-category');
+        
+        // Hide all category titles initially
+        categoryTitles.forEach(title => {
+            title.style.display = 'none';
+        });
+        
+        // Filter products and show relevant category title
+        productCards.forEach(card => {
+            if (filterValue === 'all') {
+                // Show all products and all category titles
+                card.style.display = 'block';
+                card.style.animation = 'fadeIn 0.5s ease forwards';
+                categoryTitles.forEach(title => {
+                    title.style.display = 'block';
+                });
+            } else if (card.getAttribute('data-category') === filterValue) {
+                // Show matching products and their category title
+                card.style.display = 'block';
+                card.style.animation = 'fadeIn 0.5s ease forwards';
+                
+                // Show the matching category title
+                const categoryId = card.closest('.products-grid').id;
+                document.querySelector(`#${categoryId} .category-title`).style.display = 'block';
+            } else {
+                // Hide non-matching products
+                card.style.display = 'none';
+            }
+        });
+    });
+ });
+
+
+    // Product sorting
+    const sortSelect = document.getElementById('sort-by');
+    if (sortSelect) {
+        sortSelect.addEventListener('change', function() {
+            const sortValue = this.value;
+            const productsContainer = document.querySelector('.products-container');
+            const products = Array.from(productsContainer.querySelectorAll('.product-card'));
+            
+            products.sort((a, b) => {
+                const priceA = parseFloat(a.querySelector('.price').textContent.replace('$', ''));
+                const priceB = parseFloat(b.querySelector('.price').textContent.replace('$', ''));
+                
+                switch(sortValue) {
+                    case 'price-low':
+                        return priceA - priceB;
+                    case 'price-high':
+                        return priceB - priceA;
+                    case 'newest':
+                    default:
+                        return 0;
+                }
+            });
+            
+            products.forEach((product, index) => {
+                product.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.05}s`;
+                productsContainer.appendChild(product);
+            });
+        });
+    }
+
+    // Search functionality
+    const searchInputs = document.querySelectorAll('.search-box input');
+    const searchButtons = document.querySelectorAll('.search-box button');
+
+    searchButtons.forEach((button, index) => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            performSearch(searchInputs[index].value);
+        });
+    });
+
+    searchInputs.forEach(input => {
+        input.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                performSearch(this.value);
+            }
+        });
+    });
+
+    function performSearch(query) {
+        if (!query.trim()) {
+            // Show all products and category titles if search is empty
+            productCards.forEach(card => {
+                card.style.display = 'block';
+                card.style.animation = 'fadeIn 0.5s ease forwards';
+            });
+            categoryTitles.forEach(title => {
+                title.style.display = 'block';
+            });
+            return;
+        }
+        
+        const searchTerm = query.toLowerCase();
+        let hasResults = false;
+        
+        // Hide all category titles during search
+        categoryTitles.forEach(title => {
+            title.style.display = 'none';
+        });
+        
+        productCards.forEach(card => {
+            const productName = card.querySelector('h3').textContent.toLowerCase();
+            const productCategory = card.getAttribute('data-category').toLowerCase();
+            
+            if (productName.includes(searchTerm) || productCategory.includes(searchTerm)) {
+                card.style.display = 'block';
+                card.style.animation = 'fadeIn 0.5s ease forwards';
+                hasResults = true;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        
+        if (!hasResults) {
+            alert('No products found matching your search.');
+        }
+    }
     
     // Quick View Modal
     const quickViewButtons = document.querySelectorAll('.quick-view');
