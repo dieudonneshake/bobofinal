@@ -1,0 +1,3967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | BOBO250shop</title>
+    <link rel="icon" type="images/logo.ico" href="images/bobo LOGO.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="mobile-nav">
+        <div class="mobile-logo"><img src="images/bobo LOGO.png" style="height: 50px; width: 50px;" alt="LOGO">BOBO250 Electronics Shop</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://form.jotform.com/251587117576567">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/bobo LOGO.png" style="height: 50px; width: 50px;" alt="LOGO">
+                <span>BOBO250 Electronics Shop</span>
+                <div class="logo-highlight"></div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://form.jotform.com/251587117576567">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Products Hero -->
+
+    <section class="products-hero">
+        
+        <h1>Our Premium Collection</h1>
+        <p>Discover the latest in technology with our carefully curated selection</p>
+    </section>
+
+    <!-- Products Filter -->
+    <section class="products-filter">
+        <div class="filter-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="filter-options">
+                <div class="filter-categories">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="hot-combs">Hot Combs</button>
+                    <button class="filter-btn" data-category="irons">Irons</button>
+                    <button class="filter-btn" data-category="water-heaters">Water Heaters</button>
+                    <button class="filter-btn" data-category="smartwatches">Smart Watches</button>
+                    <button class="filter-btn" data-category="watches-bands">Watches</button>
+                    <button class="filter-btn" data-category="car-chargers-bluetooth">Car Chargers & Bluetooth</button>
+                    <button class="filter-btn" data-category="ring-lights">Ring Lights</button>
+                    <button class="filter-btn" data-category="stands">Stands</button>
+                    <button class="filter-btn" data-category="screen-protectors">Screen Protectors</button>
+                    <button class="filter-btn" data-category="phones">Phones</button>
+                    <button class="filter-btn" data-category="external-disks">Disks</button>
+                    <button class="filter-btn" data-category="portable-fans">Portable Fans</button>
+                    <button class="filter-btn" data-category="wireless-chargers">Wireless Chargers</button>
+                    <button class="filter-btn" data-category="blenders">Blenders</button>
+                    <button class="filter-btn" data-category="kettles">Kettles</button>
+                    <button class="filter-btn" data-category="speakers">Speakers</button>
+                    <button class="filter-btn" data-category="mini-speakers">Mini Speakers</button>
+                    <button class="filter-btn" data-category="wall-clocks">Wall Clocks</button>
+                    <button class="filter-btn" data-category="lamps">Rechargeable Lamps</button>
+                    <button class="filter-btn" data-category="bulbs">Bulbs</button>
+                    <button class="filter-btn" data-category="cables">Cables/Adapters</button>
+                    <button class="filter-btn" data-category="phone-cases">Phone Cases</button>
+                    <button class="filter-btn" data-category="headphones">Headphones</button>
+                    <button class="filter-btn" data-category="airpods">Airpods</button>
+                    <button class="filter-btn" data-category="earpieces">Earpieces</button>
+                    <button class="filter-btn" data-category="chargers">Chargers</button>
+                    <button class="filter-btn" data-category="camera-protectors">Camera Protectors</button>
+                    <button class="filter-btn" data-category="mouses">Mouses (Gaming)</button>
+                    <button class="filter-btn" data-category="keyboards">Keyboards</button>
+                    <button class="filter-btn" data-category="flash-disks">Flash Disks</button>
+                    <button class="filter-btn" data-category="batteries">Batteries</button>
+                </div>
+                
+                <div class="sort-options">
+                    <select id="sort-by">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="newest">Newest</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-grid-section">
+        <div class="products-grid" id="phones">
+            <h2 class="category-title">Phones</h2>
+            <div class="products-container">
+                <!-- Phone 1 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/IPHONE 11.png" alt="iPhone 11">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone 11</h3>
+                        <div class="price">350,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 2 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/IPHONE XR.jpg" alt="iPhone XR">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone XR</h3>
+                        <div class="price">280,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phone 3 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/IPHONE 11 PRO MAX.png" alt="IPHONE 11 PRO MAX">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone 11 Pro Max</h3>
+                        <div class="price">400,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phone 4 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/IPHONE 12.jpg" alt="IPHONE 12">
+                        <div class="product-badge">-10%</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone 12</h3>
+                        <div class="price">450,000 FRW <span class="original-price">495,000 FRW</span></div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phone 5 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/iphone 12 pro max.webp" alt="IPHONE 12 PRO MAX">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>iPhone 12 pro max</h3>
+                        <div class="price">500,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Phone 6 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/PIXEL 6A.jpg" alt="Google pixel 6A">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Google pixel 6A</h3>
+                        <div class="price">250,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 6 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/PIXEL 5.jpg" alt="Google pixel 5">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Google pixel 5</h3>
+                        <div class="price">200,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 6 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/PIXEL 4A.jpg" alt="Google pixel 4A">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Google pixel 4A</h3>
+                        <div class="price">160,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 6 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/PIXEL 4.jpg" alt="Google pixel 4">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Google pixel 4</h3>
+                        <div class="price">180,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone 6 -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/PIXEL 3A.webp" alt="Google pixel 3A">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Google pixel 3A</h3>
+                        <div class="price">150,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/T101.jpg" alt="Tecno T101">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Tecno T101</h3>
+                        <div class="price">19,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/t301.jpg" alt="Tecno T301">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Tecno T301</h3>
+                        <div class="price">21,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/t528.jpg" alt="T528">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Tecno T528</h3>
+                        <div class="price">32,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/t315.jpg" alt="T315">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Tecno T315</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/Itel 2160.jpg" alt="Itel 2160">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Itel 2160</h3>
+                        <div class="price">17,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/Kg tel 101.jpeg" alt="Kg tel 101">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Kg tel 101</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/Sunelan S18.webp" alt="Sunelan S18">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sunelan S18</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMALL PHONE -->
+                <div class="product-card" data-category="phones">
+                    <div class="product-image">
+                        <img src="images/S7 SUN.webp" alt="Sunelan S7">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sunelan S7</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-grid" id="headphones">
+            <h2 class="category-title">Headphones & Audio</h2>
+            <div class="products-container">
+                <!-- Headphone 1 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/1000BT.webp" alt="JBL TUNE1000BT">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>JBL TUNE1000BT</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Headphone 2 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/JBL TUNE 510.jpg" alt="JBL TUNE510BT">
+                        <div class="product-badge">Best Seller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>JBL TUNE510BT</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Headphone 3 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/500bt.jpg" alt="Tune 500bt">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Noise wireless tune 500BT</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Headphone 4 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/ORAIMO12.jpg" alt="ORAIMO i12">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ORAIMO i12</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Headphone 5 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/SONNY.jpg" alt="Sony Headphone">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Sony Headphone</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Headphone 6 -->
+                <div class="product-card" data-category="headphones">
+                    <div class="product-image">
+                        <img src="images/tune760bt.jpg" alt="JBL TUNE 760BT">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>JBL TUNE 760BT</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-grid" id="smartwatches">
+            <h2 class="category-title">Smart Watches</h2>
+            <div class="products-container">
+                <!-- Watch 1 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/SERIES 9.jpg" alt="SERIES 9 SMART WATCH">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SERIES 9 SMART WATCH</h3>
+                        <div class="price">45,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch 2 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/n9_max-smart_watch3.webp" alt="N9 MAX SMART WATCH">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>N9 MAX SMART WATCH</h3>
+                        <div class="price">50,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch 3 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/Kalobee_Watch_4_Pro-2.webp" alt="KALOBEE WATCH 4 PRO+">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>KALOBEE WATCH 4 PRO+</h3>
+                        <div class="price">70,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch 4 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/WS-X2.webp" alt="SMART WATCH WS-X2">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SMART WATCH WS-X2</h3>
+                        <div class="price">70,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch 5 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/S9 PRO.jpg" alt="S9 PRO SMART WATCH">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>S9 PRO SMART WATCH</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch 6 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/T800-Ultra-45mm-Smart-Watch-hiwatch-pro-app-version.webp" alt="T800 ULTRA SMART WATCH">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>T800 ULTRA SMART WATCH</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 6 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/T1000 ULTRA.jpg" alt="T1000 ULTRA SMART WATCH">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>T1000 ULTRA SMART WATCH</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Watch 6 -->
+                <div class="product-card" data-category="smartwatches">
+                    <div class="product-image">
+                        <img src="images/T900 ULTRA.jpg" alt="T900 ULTRA SMART WATCH">
+                        <div class="product-badge">Best Value</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>T900 ULTRA SMART WATCH</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="airpods">
+            <h2 class="category-title">Airpods</h2>
+            <div class="products-container">
+                <!-- Airpod 1 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/airpods-pro.webp" alt="AirPods Pro">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>AirPods Pro</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Airpod 2 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/Airpods.webp" alt="AirPods">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>AirPods</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Airpod 3 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/PRO-5S.webp" alt="PRO 5S">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PRO 5S</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Airpod 4 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/PRO 5S MAX.jpg" alt="PRO 5S MAX">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PRO 5S MAX</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Airpod 5 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/PRO 6PLUS.jpg" alt="PRO 6PLUS">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PRO 6PLUS</h3>
+                        <div class="price">12,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/Pro-8s.jpg" alt="PRO 8S">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PRO 8S</h3>
+                        <div class="price">13,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/SAMSUNG HEADSETS.jpg" alt="SAMSUNG HEADSETS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAMSUNG AIRBUDS</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/JBL AIR-R03S.jpg" alt="JBL AIR-R03S AIRPODS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>JBL AIR-R03S AIRPODS</h3>
+                        <div class="price">13,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/PRO AIR AIRPODS.jpg" alt="PRO AIR AIRPODS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PRO AIR AIRPODS</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/M19 AIRPODS.webp" alt="M19 AIRPODS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>M19 AIRPODS</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/HAINO TEKO AIRPODS.jpg" alt="HAINO TEKO AIRPODS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>HAINO TEKO AIRPODS</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/Q-82 Sports Airpods.webp" alt="Q-82 Sports Airpods">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Q-82 Sports Airpods</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Airpod 6 -->
+                <div class="product-card" data-category="airpods">
+                    <div class="product-image">
+                        <img src="images/Lenovo HE05X AIRPODS.webp" alt="Lenovo HE05X AIRPODS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Lenovo HE05X AIRPODS</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="earpieces">
+            <h2 class="category-title">Earpieces</h2>
+            <div class="products-container">
+                <!-- Earpiece 1 -->
+                <div class="product-card" data-category="earpieces">
+                    <div class="product-image">
+                        <img src="images/Samsung wired headsets.jpg" alt="Samsung wired headsets">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Samsung wired headsets</h3>
+                        <div class="price">3000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Earpiece 2 -->
+                <div class="product-card" data-category="earpieces">
+                    <div class="product-image">
+                        <img src="images/VEVO WIRED HEADSETS.webp" alt="VEVO WIRED HEADSETS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>VEVO WIRED HEADSETS</h3>
+                        <div class="price">3000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Earpiece 3 -->
+                <div class="product-card" data-category="earpieces">
+                    <div class="product-image">
+                        <img src="images/IPHONE WIRED HEADSETS.webp" alt="IPHONE WIRED HEADSETS">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONE WIRED HEADSETS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Earpiece 4 -->
+                <div class="product-card" data-category="earpieces">
+                    <div class="product-image">
+                        <img src="images/TYPE C WIRED HEADSETS.jpg" alt="TYPE C WIRED HEADSETS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C WIRED HEADSETS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Earpiece 5 -->
+                <div class="product-card" data-category="earpieces">
+                    <div class="product-image">
+                        <img src="images/ICEWORM WIRED HEADSETS.webp" alt="ICEWORM WIRED HEADSETS">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ICEWORM WIRED HEADSETS</h3>
+                        <div class="price">3000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="chargers">
+            <h2 class="category-title">Chargers</h2>
+            <div class="products-container">
+                <!-- Charger 1 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/IPHONE 15 PRO MAX TYPE C TO C 35W, 40W, 45W, 50W, 55W AND 60W POWER ADAPTER.avif" alt="Fast Charger">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONE 15 PRO MAX TYPE C TO C 35W, 40W, 45W, 50W, 55W AND 60W POWER ADAPTER</h3>
+                        <div class="price">15,000 FRW - 20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charger 2 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/IPHONE 14 PRO MAX TYPE C TO C 35W, 40W, 45W, 50W, 55W AND 60W POWER ADAPTER.jpeg" alt="Multi-Port Charger">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONE 14 PRO MAX TYPE C TO C 35W, 40W, 45W, 50W, 55W AND 60W POWER ADAPTER</h3>
+                        <div class="price">10,000 FRW - 20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charger 3 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/TYPE A TO B FAST CHARGER.jpg" alt="GaN Charger">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE A TO B FAST CHARGER</h3>
+                        <div class="price">3500FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charger 4 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/SAMSUNG TYPE A TO C FAST CHARGER.webp" alt="SAMSUNG TYPE A TO C FAST CHARGER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAMSUNG TYPE A TO C FAST CHARGER</h3>
+                        <div class="price">5000FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charger 5 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/TYPE C TO C 45W POWER ADAPTER.webp" alt="TYPE C TO C 45W POWER ADAPTER">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C TO C 45W POWER ADAPTER</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Charger 6 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/TYPE C TO C 50W POWER ADAPTER.webp" alt="TYPE C TO C 50W POWER ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C TO C 50W POWER ADAPTER</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charger 6 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/TYPE C TO C 65W POWER ADAPTER.jpg" alt="TYPE C TO C 65W POWER ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C TO C 65W POWER ADAPTER</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charger 6 -->
+                <div class="product-card" data-category="chargers">
+                    <div class="product-image">
+                        <img src="images/120W CHARGER.jpg" alt="TYPE C TO C 120W POWER ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C TO C 120W POWER ADAPTER</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="products-grid" id="accessories">
+            <h2 class="category-title">Accessories</h2>
+            <div class="products-container">
+                <!-- Accessory 1 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/KADRIS MULT SOCKET (POWER STRIPS) 3 - 6 POTS.webp" alt="KADRIS MULT SOCKET (POWER STRIPS) 3 - 6 POTS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>KADRIS MULT SOCKET (POWER STRIPS) 3 - 6 POTS</h3>
+                        <div class="price">10,000 FRW - 15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Accessory 2 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/EMKAY POWER EXTENSION 3 - 6 POTS.jpeg" alt="EMKAY POWER EXTENSION 3 - 6 POTS">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>EMKAY POWER EXTENSION 3 - 6 POTS</h3>
+                        <div class="price">8,000 FRW - 13,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Accessory 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/LARONGE.png" alt="YUE ZHI XING SOCKET">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>YUE ZHI XING SOCKET</h3>
+                        <div class="price">8,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accessory 3 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <img src="images/KEMEIELECTRIC-HAIR-CLIPPER-KM-6331.jpeg" alt="KEMEIELECTRIC-HAIR-CLIPPER-KM-6331">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>KEMEIELECTRIC-HAIR-CLIPPER-KM-6331</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="irons">
+            <h2 class="category-title">Irons</h2>
+            <div class="products-container">
+                <!-- Iron 1 -->
+                <div class="product-card" data-category="irons">
+                    <div class="product-image">
+                        <img src="images/PHILIPS IRON WHITE.jpg" alt="PHILIPS IRON">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PHILIPS IRONo</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Iron 2 -->
+                <div class="product-card" data-category="irons">
+                    <div class="product-image">
+                        <img src="images/SAYONA IRON METAL.jpg" alt="SAYONA IRON">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAYONA IRON METAL</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Iron 3 -->
+                <div class="product-card" data-category="irons">
+                    <div class="product-image">
+                        <img src="images/SAYONA IRON.webp" alt="SAYONA IRON PRASTIC">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAYONA IRON PRASTIC</h3>
+                        <div class="price">18,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Iron 4 -->
+                <div class="product-card" data-category="irons">
+                    <div class="product-image">
+                        <img src="images/WINNING STAR IRON.avif" alt="WINNING STAR DRY IRON">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>WINNING STAR DRY IRON</h3>
+                        <div class="price">18,000FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="water-heaters">
+            <h2 class="category-title">Water Heaters</h2>
+            <div class="products-container">
+                <!-- Water Heater 1 -->
+                <div class="product-card" data-category="water-heaters">
+                    <div class="product-image">
+                        <img src="images/WATER HEATER.jpg" alt="Instant Water Heater">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>GERMAN WATER HEATER IMMERSION ROP, 1500W</h3>
+                        <div class="price">8,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="watches-bands">
+            <h2 class="category-title">Watches</h2>
+            <div class="products-container">
+                <!-- Watch Band 1 -->
+                <div class="product-card" data-category="watches-bands">
+                    <div class="product-image">
+                        <img src="images/ROLEX MEN WATCH.avif" alt="ROLEX MEN WATCH">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ROLEX MEN WATCH</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Band 2 -->
+                <div class="product-card" data-category="watches-bands">
+                    <div class="product-image">
+                        <img src="images/WOMEN ROLEX.webp" alt="ROLEX WOMEN WATCH">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ROLEX WOMEN WATCH</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Band 3 -->
+                <div class="product-card" data-category="watches-bands">
+                    <div class="product-image">
+                        <img src="images/MEN CLASSIC WATCH.webp" alt="MEN CLASSIC WATCH">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>MEN CLASSIC WATCH</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Band 4 -->
+                <div class="product-card" data-category="watches-bands">
+                    <div class="product-image">
+                        <img src="images/RESIDAI WOMEN WATCHES.png" alt="RESIDAI WOMEN WATCHES">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RESIDAI WOMEN WATCHES</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Watch Band 5 -->
+                <div class="product-card" data-category="watches-bands">
+                    <div class="product-image">
+                        <img src="images/DIBISH MEN CLASSIC WATCHES.jpg" alt="DIBISH MEN CLASSIC WATCHES">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>DIBISH MEN CLASSIC WATCHES</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="car-chargers-bluetooth">
+            <h2 class="category-title">Car Chargers & Bluetooth</h2>
+            <div class="products-container">
+                <!-- Car Charger 1 -->
+                <div class="product-card" data-category="car-chargers-bluetooth">
+                    <div class="product-image">
+                        <img src="images/20W CAR CHARGER TYPE C.jpg" alt="20W CAR CHARGER TYPE C">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>20W CAR CHARGER TYPE C</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Car Charger 2 -->
+                <div class="product-card" data-category="car-chargers-bluetooth">
+                    <div class="product-image">
+                        <img src="images/55W USB SMART OUTPUT QUICK CAR CHARGER.jpg" alt="55W USB SMART OUTPUT QUICK CAR CHARGER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>55W USB SMART OUTPUT QUICK CAR CHARGER</h3>
+                        <div class="price">6000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Charger 2 -->
+                <div class="product-card" data-category="car-chargers-bluetooth">
+                    <div class="product-image">
+                        <img src="images/CARG7.jpg" alt="CARG7 BLUETOOTH CAR CHARGER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>CARG7 BLUETOOTH CAR CHARGER</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="ring-lights">
+            <h2 class="category-title">Ring Lights</h2>
+            <div class="products-container">
+                <!-- Ring Light 1 -->
+                <div class="product-card" data-category="ring-lights">
+                    <div class="product-image">
+                        <img src="images/SELFIE STICK JH07 RING LIGHT.jpg" alt="SELFIE STICK JH07 RING LIGHT">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SELFIE STICK JH07 RING LIGHT</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ring Light 2 -->
+                <div class="product-card" data-category="ring-lights">
+                    <div class="product-image">
+                        <img src="images/Universal Mini Ring Light for Mobile Phones.webp" alt="Universal Mini Ring Light for Mobile Phones">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Universal Mini Ring Light for Mobile Phones</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ring Light 3 -->
+                <div class="product-card" data-category="ring-lights">
+                    <div class="product-image">
+                        <img src="images/RING LIGHT 14 inches.jpg" alt="RING LIGHT 14 inches">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RING LIGHT 14 inches</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ring Light 4 -->
+                <div class="product-card" data-category="ring-lights">
+                    <div class="product-image">
+                        <img src="images/RING LIGHT18 inches.webp" alt="RING LIGHT18 inches">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RING LIGHT 18 inches</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ring Light 5 -->
+                <div class="product-card" data-category="ring-lights">
+                    <div class="product-image">
+                        <img src="images/Ring light 21 inches.webp" alt="Ring light 21 inches">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Ring light 21 inches</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="stands">
+            <h2 class="category-title">Stands (Laptop, Phone)</h2>
+            <div class="products-container">
+                <!-- Stand 1 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/LAPTOP STAND 1.webp" alt="LAPTOP STAND 1">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LAPTOP STAND 1</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 2 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/LAPTOP STAND 2.jpg" alt="LAPTOP STAND 2">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LAPTOP STAND 2</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 3 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/LAPTOP STAND 3.jpg" alt="LAPTOP STAND 3">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LAPTOP STAND 3</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 4 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/LAPTOP STAND WITH FAN.jpg" alt="LAPTOP STAND WITH FAN">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LAPTOP STAND WITH FAN</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 5 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/PHONE STAND 1.jpg" alt="PHONE STAND 1">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PHONE STAND 1</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 6 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/PHONE STAND 2.webp" alt="PHONE STAND 2">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PHONE STAND 2</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stand 6 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/PHONE STAND 3.webp" alt="PHONE STAND 3">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PHONE STAND 3</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Stand 6 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/PHONE STAND 4.webp" alt="PHONE STAND 4">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PHONE STAND 4</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stand 6 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/CAR PHONE HOLDER.jpg" alt="CAR PHONE HOLDER 1">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>CAR PHONE HOLDER 1</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stand 6 -->
+                <div class="product-card" data-category="stands">
+                    <div class="product-image">
+                        <img src="images/CAR PHONE HOLDER 2.jpg" alt="CAR PHONE HOLDER 2">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>CAR PHONE HOLDER 2</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="products-grid" id="screen-protectors">
+            <h2 class="category-title">Screen Protectors</h2>
+            <div class="products-container">
+                <!-- Screen Protector 1 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/IPHONES SCREEN PROTECTOR.jpg" alt="IPHONES SCREEN PROTECTOR">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONES FROM 6 - 16 SCREEN PROTECTORS</h3>
+                        <div class="price">2000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Screen Protector 2 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/IPHONES PRIVACY SCREEN PROTECTORS.webp" alt="IPHONES PRIVACY SCREEN PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONES FROM 6 - 16 PRIVACY SCREEN PROTECTORS</h3>
+                        <div class="price">4000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Screen Protector 3 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/IPHONES CERAMIC SCREEN PROTECTOR.jpg" alt="IPHONES CERAMIC SCREEN PROTECTOR">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>IPHONES FROM 6 - 16 CERAMIC SCREEN PROTECTOR</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Screen Protector 4 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/SAMSUNGS SCREEN PROTECTORS.jpg" alt="SAMSUNGS SCREEN PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL SAMSUNGS' SCREEN PROTECTORS</h3>
+                        <div class="price">2000 FRW - 5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Screen Protector 5 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/SAMSUNGS PRIVACY SCREEN PROTECTORS.jpg" alt="SAMSUNGS PRIVACY SCREEN PROTECTORS">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3> ALL SAMSUNGS PRIVACY SCREEN PROTECTORS</h3>
+                        <div class="price">3000FRW - 5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Screen Protector 6 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/SAMSUNGS CERAMIC SCREEN PROTECTORS.jpg" alt="SAMSUNGS CERAMIC SCREEN PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL SAMSUNGS' CERAMIC SCREEN PROTECTORS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screen Protector 6 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/ALL ANDROID PHONES' SCREEN PROTECTORS.jpg" alt="ALL ANDROID PHONES' SCREEN PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL ANDROID PHONES' SCREEN PROTECTORS</h3>
+                        <div class="price">2000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Screen Protector 6 -->
+                <div class="product-card" data-category="screen-protectors">
+                    <div class="product-image">
+                        <img src="images/ALL ANDROID PHONES' PRIVACY SCREEN PROTECTORS.jpg" alt="ALL ANDROID PHONES' PRIVACY SCREEN PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL ANDROID PHONES' PRIVACY SCREEN PROTECTORS</h3>
+                        <div class="price">4000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="external-disks">
+            <h2 class="category-title">Disks</h2>
+            <div class="products-container">
+                <!-- External Disk 1 -->
+                <div class="product-card" data-category="external-disks">
+                    <div class="product-image">
+                        <img src="images/320GB - 2T EXTERNAL HARD DRIVE DISKS.webp" alt="320GB - 2T EXTERNAL HARD DRIVE DISKS">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>EXTERNAL HARD DRIVE DISKS 320GB - 2TB </h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- External Disk 2 -->
+                <div class="product-card" data-category="external-disks">
+                    <div class="product-image">
+                        <img src="images/HDD 320BG - 2T.jpg" alt="HDD 320BG - 2TB">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>HDD 320BG - 2TB</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- External Disk 3 -->
+                <div class="product-card" data-category="external-disks">
+                    <div class="product-image">
+                        <img src="images/EXTERNAL SSD 128GB - 2 TB.jpg" alt="EXTERNAL SSD 128GB - 2TB">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>EXTERNAL SSD 128GB - 2TB</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- External Disk 4 -->
+                <div class="product-card" data-category="external-disks">
+                    <div class="product-image">
+                        <img src="images/SSD 128GB - 2T.jpg" alt="SSD 128GB - 2TB">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SSD 128GB - 2TB</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="portable-fans">
+            <h2 class="category-title">Portable Fans</h2>
+            <div class="products-container">
+                <!-- Fan 1 -->
+                <div class="product-card" data-category="portable-fans">
+                    <div class="product-image">
+                        <img src="images/portable fun.jpg" alt="PORTABLE FAN">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>PORTABLE FAN</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fan 2 -->
+                <div class="product-card" data-category="portable-fans">
+                    <div class="product-image">
+                        <img src="images/MINI FAN.jpg" alt="FASHION GIFT MINI USB FAN">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>FASHION GIFT MINI USB FAN</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fan 3 -->
+                <div class="product-card" data-category="portable-fans">
+                    <div class="product-image">
+                        <img src="images/USB DESKTOP CIRCULATING COLD AIR THREE-HOLE SPRAY AIR FAN.jpg" alt="USB DESKTOP CIRCULATING COLD AIR THREE-HOLE SPRAY AIR FAN">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>USB DESKTOP CIRCULATING COLD AIR THREE-HOLE SPRAY AIR FAN</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="products-grid" id="wireless-chargers">
+            <h2 class="category-title">Wireless Chargers</h2>
+            <div class="products-container">
+                <!-- Wireless Charger 1 -->
+                <div class="product-card" data-category="wireless-chargers">
+                    <div class="product-image">
+                        <img src="images/3 IN 1 MAGNETIC WIRELESS CHARGER.webp" alt="3 IN 1 MAGNETIC WIRELESS CHARGER">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>3 IN 1 MAGNETIC WIRELESS CHARGER</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wireless Charger 2 -->
+                <div class="product-card" data-category="wireless-chargers">
+                    <div class="product-image">
+                        <img src="images/MAGSAFE FAST WIRELESS CHARGER.jpg" alt="MAGSAFE FAST WIRELESS CHARGER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>MAGSAFE FAST WIRELESS CHARGER</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="products-grid" id="blenders">
+            <h2 class="category-title">Blenders</h2>
+            <div class="products-container">
+                <!-- Blender 1 -->
+                <div class="product-card" data-category="blenders">
+                    <div class="product-image">
+                        <img src="images/SILVER LOVER SC-08 BLENDER.webp" alt="SILVER LOVER SC-08 BLENDER">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SILVER LOVER SC-08 BLENDER</h3>
+                        <div class="price">60,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blender 2 -->
+                <div class="product-card" data-category="blenders">
+                    <div class="product-image">
+                        <img src="images/SK-886.webp" alt="SK-886 BLENDER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SKOEDI SK-886 BLENDER</h3>
+                        <div class="price">40,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blender 3 -->
+                <div class="product-card" data-category="blenders">
+                    <div class="product-image">
+                        <img src="images/7 STARS.jpg" alt="7 STARS BLENDER">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SEVEN 7 STARS BLENDER</h3>
+                        <div class="price">60,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Blender 4 -->
+                <div class="product-card" data-category="blenders">
+                    <div class="product-image">
+                        <img src="images/MIRALUX BLENDER.png" alt="MIRALUX BLENDER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>MURALUX 3 IN 1 BLENDER</h3>
+                        <div class="price">$29</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="kettles">
+            <h2 class="category-title">Kettles</h2>
+            <div class="products-container">
+                <!-- Kettle 1 -->
+                <div class="product-card" data-category="kettles">
+                    <div class="product-image">
+                        <img src="images/sayona glass kettle.webp" alt="sayona glass kettle">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAYONAPPS GLASS ELECTRIC KETTLE</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kettle 2 -->
+                <div class="product-card" data-category="kettles">
+                    <div class="product-image">
+                        <img src="images/MARADO M-2323 KETTLE.webp" alt="MARADO M-2323 KETTLE">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>MARADO M-2323 ELECTRIC KETTLE</h3>
+                        <div class="price">16,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kettle 3 -->
+                <div class="product-card" data-category="kettles">
+                    <div class="product-image">
+                        <img src="images/SUTAI ST-2332.avif" alt="SUTAI ST-2332">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SUTAI ST-2332 ELECTRIC KETTLE</h3>
+                        <div class="price">14,300 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kettle 4 -->
+                <div class="product-card" data-category="kettles">
+                    <div class="product-image">
+                        <img src="images/SUTAI ST - 8820 ELECTRIC KETTLE.jpg" alt="SUTAI ST - 8820">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SUTAI ST - 8820 ELECTRIC KETTLE</h3>
+                        <div class="price">12,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kettle 5 -->
+                <div class="product-card" data-category="kettles">
+                    <div class="product-image">
+                        <img src="images/Electric Stainless Steel kettle 1.7L.webp" alt="Electric Stainless Steel kettle 1.7L">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Electric Stainless Steel kettle 1.7L</h3>
+                        <div class="price">9,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="speakers">
+            <h2 class="category-title">Speakers</h2>
+            <div class="products-container">
+                <!-- Speaker 1 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="images/STONE ST - 6030 MULTIMEDIA SPEAKERS.jpg" alt="STONE ST - 6030 MULTIMEDIA SPEAKERS">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>STONE ST - 6030 MULTIMEDIA SPEAKERS</h3>
+                        <div class="price">60,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Speaker 2 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="images/ZEG-D56 MULTIMEDIA SPEAKERS.jpg" alt="ZEG-D56 MULTIMEDIA SPEAKERS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ZEG-D56 MULTIMEDIA SPEAKERS</h3>
+                        <div class="price">90,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Speaker 3 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="images/JIEPAK JP-108 SPEAKER.jpg" alt="JIEPAK JP-108 SPEAKER">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>JIEPAK JP-108 SPEAKER</h3>
+                        <div class="price">73,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Speaker 4 -->
+                <div class="product-card" data-category="speakers">
+                    <div class="product-image">
+                        <img src="images/ALLIUP JW S5 MULTIMEDIA SPEAKERS.jpg" alt="ALLIUP JW S5 MULTIMEDIA SPEAKERS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALLIUP JW S5 MULTIMEDIA SPEAKERS</h3>
+                        <div class="price">85,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="products-grid" id="mini-speakers">
+            <h2 class="category-title">Mini Speakers</h2>
+            <div class="products-container">
+                <!-- Mini Speaker 1 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/BOOM JBL.jpg" alt="BOOMSBOX3 SPEAKER"> 
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BOOMSBOX3 JBL SPEAKER</h3>
+                        <div class="price">70,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Speaker 2 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/BOOMBEST SPEAKER.jpg" alt="BOOMBEST SPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BOOMBEST SPEAKER LN 1036BT</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Speaker 3 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/ETOSONIC SPEAKER.webp" alt="ETOSONIC PORTABLE LOUD SPEAKER">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ETOSONIC PORTABLE LOUD SPEAKER</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Speaker 4 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/P30 WIRELESS SPEAKER.avif" alt="P30 WIRELESS SPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>P30 WIRELESS SPEAKER</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Speaker 5 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/KISST K-102mini Solar Charging wireless speaker.jpg" alt="KISST K-102mini Solar Charging wireless speaker">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>KISST K-102mini Solar Charging wireless speaker</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mini Speaker 6 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/BOOMBEST 1016MINI SPEAKER.jpg" alt="BOOMBEST 1016MINI SPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BOOMBEST 1016MINI SPEAKER</h3>
+                        <div class="price">13,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Speaker 6 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/C-15 MINISPEAKER.avif" alt="C-15 MINISPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>C-15 MINISPEAKER</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Speaker 6 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/C-19 MINISPEAKER.png" alt="C-19 MINISPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>C-19 MINISPEAKER</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mini Speaker 6 -->
+                <div class="product-card" data-category="mini-speakers">
+                    <div class="product-image">
+                        <img src="images/V-6 PRO BLUETOOTH MINISPEAKER.jpg" alt="V-6 PRO BLUETOOTH MINISPEAKER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>V-6 PRO BLUETOOTH MINISPEAKER</h3>
+                        <div class="price">13,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="wall-clocks">
+            <h2 class="category-title">Wall Clocks</h2>
+            <div class="products-container">
+                <!-- Wall Clock 1 -->
+                <div class="product-card" data-category="wall-clocks">
+                    <div class="product-image">
+                        <img src="images/WALL CLOCK 1.webp" alt="Modern Wall Clock">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Modern Wall Clock</h3>
+                        <div class="price">45,000FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wall Clock 2 -->
+                <div class="product-card" data-category="wall-clocks">
+                    <div class="product-image">
+                        <img src="images/Wall Clocks Round, Modern Wall Clock.jpg" alt="Wall Clocks Round, Modern Wall Clock">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Wall Clocks Round, Modern Wall Clock</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wall Clock 3 -->
+                <div class="product-card" data-category="wall-clocks">
+                    <div class="product-image">
+                        <img src="images/TOMYEUS Wall Clocks Chinese Style Living Room.jpg" alt="TOMYEUS Wall Clocks Chinese Style Living Room">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TOMYEUS Wall Clocks Chinese Style Living Room</h3>
+                        <div class="price">40,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wall Clock 4 -->
+                <div class="product-card" data-category="wall-clocks">
+                    <div class="product-image">
+                        <img src="images/SEIKO 13 Numbered Wood Finish Wall Clock,.jpg" alt="SEIKO 13 Numbered Wood Finish Wall Clock">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SEIKO 13 Numbered Wood Finish Wall Clock</h3>
+                        <div class="price">18,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Wall Clock 5 -->
+                <div class="product-card" data-category="wall-clocks">
+                    <div class="product-image">
+                        <img src="images/Seiko 12 inch Classic Business, Round, Wall Clock.webp" alt="Seiko 12 inch Classic Business, Round, Wall Clock">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Seiko 12 inch Classic Business, Round, Wall Clock</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="products-grid" id="lamps">
+            <h2 class="category-title">Rechargeable Lamps</h2>
+            <div class="products-container">
+                <!-- Lamp 1 -->
+                <div class="product-card" data-category="lamps">
+                    <div class="product-image">
+                        <img src="images/EMERGENCY LAMP FA-7001.jpg" alt="EMERGENCY LAMP FA-7001">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>EMERGENCY LAMP FA-7001</h3>
+                        <div class="price">13,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lamp 2 -->
+                <div class="product-card" data-category="lamps">
+                    <div class="product-image">
+                        <img src="images/WEIDAS WD-839T EMERGENCE LAMP.avif" alt="WEIDAS WD-839T EMERGENCE LAMP">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>WEIDAS WD-839T EMERGENCE LAMP</h3>
+                        <div class="price">25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lamp 3 -->
+                <div class="product-card" data-category="lamps">
+                    <div class="product-image">
+                        <img src="images/SUN AFRICA SA-7858 SOLAR RED EMERGENCE.jpg" alt="SUN AFRICA SA-7858 SOLAR RED EMERGENCE">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SUN AFRICA SA-7858 SOLAR RED EMERGENCE</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="bulbs">
+            <h2 class="category-title">Bulbs</h2>
+            <div class="products-container">
+                <!-- Bulb 1 -->
+                <div class="product-card" data-category="bulbs">
+                    <div class="product-image">
+                        <img src="images/RIVER LED BULB.jpeg" alt="RIVER LED BULB">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RIVER LED BULB</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bulb 2 -->
+                <div class="product-card" data-category="bulbs">
+                    <div class="product-image">
+                        <img src="images/RIVER LED FOOTBALL UFO LAMP.jpeg" alt="RIVER LED FOOTBALL UFO LAMP">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RIVER LED FOOTBALL UFO LAMP</h3>
+                        <div class="price">8,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bulb 3 -->
+                <div class="product-card" data-category="bulbs">
+                    <div class="product-image">
+                        <img src="images/RIVER LED MUSIC BULB.jpg" alt="RIVER LED MUSIC BULB">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>RIVER LED MUSIC BULB</h3>
+                        <div class="price">12,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bulb 4 -->
+                <div class="product-card" data-category="bulbs">
+                    <div class="product-image">
+                        <img src="images/LED BULB 40W ECONOMIC.avif" alt="LED BULB 40W ECONOMIC">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LED BULB 40W ECONOMIC</h3>
+                        <div class="price">7,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bulb 5 -->
+                <div class="product-card" data-category="bulbs">
+                    <div class="product-image">
+                        <img src="images/ROYAL LEB BULB LIGHT.png" alt="ROYAL LEB BULB LIGHT">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ROYAL LEB BULB LIGHT</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="products-grid" id="cables">
+            <h2 class="category-title">Cables/Adapters</h2>
+            <div class="products-container">
+                <!-- Cable 1 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/BLUE PIN ADAPTER.webp" alt="BLUE PIN ADAPTER">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BLUE PIN ADAPTER</h3>
+                        <div class="price">15,000 FRW - 25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cable 2 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/YELLOW PIN ADAPTER.jpg" alt="YELLOW PIN ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>YELLOW PIN ADAPTER</h3>
+                        <div class="price">15,000 FRW - 25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cable 3 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/SMALL PIN (LENOVO) ADAPTER.jpg" alt="SMALL PIN (LENOVO) ADAPTER">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SMALL PIN (LENOVO) ADAPTER</h3>
+                        <div class="price">15,000 FRW - 25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cable 4 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/TYPE C LAPTOP CHARGER ADAPTER" alt="TYPE C LAPTOP CHARGER ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>TYPE C LAPTOP CHARGER ADAPTER</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cable 5 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/BIG PIN ADAPTER.webp" alt="BIG PIN ADAPTER">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BIG PIN ADAPTER</h3>
+                        <div class="price">15,000 FRW - 25,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cable 6 -->
+                <div class="product-card" data-category="cables">
+                    <div class="product-image">
+                        <img src="images/LENOVO ADAPTER.jpg" alt="LENOVO ADAPTER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>LENOVO ADAPTER</h3>
+                        <div class="price">20,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="products-grid" id="phone-cases">
+    <h2 class="category-title">Phone Cases</h2>
+    <div class="products-container simple-cases">
+        <!-- Phone Case 1 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case1.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 2 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case2.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 3 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case3.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 4 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case4.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 5 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case5.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 6 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case6.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 7 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case7.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 8 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case8.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 9 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case9.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 10 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case10.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 11 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case11.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 12 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case12.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 13 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case13.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 14 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case14.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 15 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case15.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 16 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case16.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 17 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case17.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 18 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case18.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 19 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case19.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 20 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case20.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 21 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case21.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 22 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case22.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 23 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case23.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 24 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case24.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 25 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case 25.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 26 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case26.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 27 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case27.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 28 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case28.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 29 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case29.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 30 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case30.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 31 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case31.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 32 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case32.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 33 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case33.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 34 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case34.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 35 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case35.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 36 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case36.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 37 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case37.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 38 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case38.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 39 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case39.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 40 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case40.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 41 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case41.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 42 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case42.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 43 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case43.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 44 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case44.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 45 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case45.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 46 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case46.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 47 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case47.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 48 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case 48.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 49 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case49.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 50 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case50.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 51 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case51.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 52 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case52.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 53 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case53.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 54 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case54.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 55 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case55.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 56 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case56.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 57 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case57.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 58 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case58.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 59 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case59.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 60 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case60.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 61 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case61.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 62 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case62.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 63 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case63.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 64 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case64.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 65 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case65.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 66 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case66.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 67 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case67.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 68 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case68.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 69 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case69.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 70 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case70.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 71 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case71.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 72 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case72.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 73 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case73.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 74 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case74.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 75 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case75.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 76 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case76.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 77 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case77.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 78 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case78.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 79 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case79.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 80 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case80.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 81 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case81.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 82 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case82.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 83 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case 83.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 84 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case84.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 85 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case85.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 86 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case86.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 87 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case87.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 88 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case88.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 89 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case89.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 90 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case90.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+
+        <!-- Phone Case 91 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case91.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 92 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case92.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 93 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case93.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 94 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case94.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 95 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case95.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 96 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case96.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 97 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case97.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 98 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case98.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 99 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case99.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+        
+        <!-- Phone Case 100 -->
+        <div class="product-card simple-case" data-category="phone-cases">
+            <div class="product-image">
+                <img src="images/case100.jpg" alt="Phone Case">
+                <button class="buy-now-simple">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+        <div class="products-grid" id="camera-protectors">
+            <h2 class="category-title">Camera Protectors</h2>
+            <div class="products-container">
+                <!-- Camera Protector 1 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/IPHONE 14 PRO & IPHONE 14 PRO MAX CAMERA PROTECTORS.jpg" alt="CLASSIC CAMERA LENS PROTECTORS">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>CLASSIC CAMERA LENS PROTECTORS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Camera Protector 2 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/ICE CAMERA PROTECTORS.webp" alt="ICE CAMERA LENS PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ICE CAMERA LENS PROTECTORS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Camera Protector 3 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/SILVER LENS CAMERA PROTECTORS.jpg" alt="SILVER LENS CAMERA PROTECTORS">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SILVER LENS CAMERA PROTECTORS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Camera Protector 4 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/ALUMINIUM RING CAMERA LENS PROTECTORES.webp" alt="ALUMINIUM RING CAMERA LENS PROTECTORES">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALUMINIUM RING CAMERA LENS PROTECTORES</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Camera Protector 5 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/Black Camera Protector.webp" alt="Black Camera Protector">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Black Camera Protector</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Camera Protector 6 -->
+                <div class="product-card" data-category="camera-protectors">
+                    <div class="product-image">
+                        <img src="images/SAMSUNG CAMERA  LENS PROTECTORS.webp" alt="SAMSUNG CAMERA  LENS PROTECTORS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SAMSUNG CAMERA  LENS PROTECTORS</h3>
+                        <div class="price">5000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="mouses">
+            <h2 class="category-title">Mouses (Gaming)</h2>
+            <div class="products-container">
+                <!-- Mouse 1 -->
+                <div class="product-card" data-category="mouses">
+                    <div class="product-image">
+                        <img src="images/FM510A WIRELESS MOUSE.jpg" alt="FM510A WIRELESS MOUSE">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>FM510A WIRELESS MOUSE</h3>
+                        <div class="price">8,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mouse 2 -->
+                <div class="product-card" data-category="mouses">
+                    <div class="product-image">
+                        <img src="images/Wireless Mouse Optical Mouse.webp" alt="Wireless Mouse Optical">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Q2 Wireless Mouse Optical</h3>
+                        <div class="price">5,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mouse 3 -->
+                <div class="product-card" data-category="mouses">
+                    <div class="product-image">
+                        <img src="images/GAMING MOUSE M100.jpg" alt="GAMING MOUSE M100">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>GAMING MOUSE M100</h3>
+                        <div class="price">6,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mouse 4 -->
+                <div class="product-card" data-category="mouses">
+                    <div class="product-image">
+                        <img src="images/HP INVENT MOUSE.jpg" alt="HP INVENT MOUSE">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>HP INVENT MOUSE</h3>
+                        <div class="price">3,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mouse 4 -->
+                <div class="product-card" data-category="mouses">
+                    <div class="product-image">
+                        <img src="images/GAMING WIRELESS MOUSE.avif" alt="GAMING WIRELESS MOUSE">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>GAMING WIRELESS MOUSE</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="keyboards">
+            <h2 class="category-title">Keyboards</h2>
+            <div class="products-container">
+                <!-- Keyboard 1 -->
+                <div class="product-card" data-category="keyboards">
+                    <div class="product-image">
+                        <img src="images/GAMING WIRELESS KEYBOARD.jpg" alt="GAMING WIRELESS KEYBOARD">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>GAMING WIRELESS KEYBOARD</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Keyboard 2 -->
+                <div class="product-card" data-category="keyboards">
+                    <div class="product-image">
+                        <img src="images/GAMING WIRED KEYBOARD.jpg" alt="GAMING WIRED KEYBOARD">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>GAMING WIRED KEYBOARD</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Keyboard 3 -->
+                <div class="product-card" data-category="keyboards">
+                    <div class="product-image">
+                        <img src="images/BEST WIRELESS KEYBOARD.png" alt="BEST WIRELESS KEYBOARD">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BEST WIRELESS KEYBOARD</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Keyboard 4 -->
+                <div class="product-card" data-category="keyboards">
+                    <div class="product-image">
+                        <img src="images/BEST WIRED KEYBOARD.jpg" alt="BEST WIRED KEYBOARD">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>BEST WIRED KEYBOARD</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="flash-disks">
+            <h2 class="category-title">Flash Disks</h2>
+            <div class="products-container">
+                <!-- Flash Disk 1 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/4GB FLASK DISK ALL BRANDS.webp" alt="4GB FLASK DISK ALL BRANDS">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>4GB FLASK DISK ALL BRANDS</h3>
+                        <div class="price">4,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flash Disk 2 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/8GB FLASH DISK ALL BRANDS.jpg" alt="8GB FLASH DISK ALL BRANDS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>8GB FLASH DISK ALL BRANDS</h3>
+                        <div class="price">5,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flash Disk 3 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/16GB FLASH DISK ALL BRANDS.jpg" alt="16GB FLASH DISK ALL BRANDS">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>16GB FLASH DISK ALL BRANDS</h3>
+                        <div class="price">6,500 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flash Disk 4 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/32GB FLASH DISK ALL BRANDS.webp" alt="32GB FLASH DISK ALL BRANDS">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>32GB FLASH DISK ALL BRANDS</h3>
+                        <div class="price">8,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flash Disk 5 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/64GB FLASH DISK ALL BRANDS.webp" alt="64GB FLASH DISK ALL BRANDS">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>64GB FLASH DISK ALL BRANDS</h3>
+                        <div class="price">10,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Flash Disk 6 -->
+                <div class="product-card" data-category="flash-disks">
+                    <div class="product-image">
+                        <img src="images/128GB FLASH DISK ALL BRANDS.jpg" alt="Mini USB">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>128GB FLASH DISK ALL BRANDS</h3>
+                        <div class="price">15,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="batteries">
+            <h2 class="category-title">Batteries</h2>
+            <div class="products-container">
+                <!-- Battery 1 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL IPHONE BATTERIES.webp" alt="ALL IPHONE BATTERIES">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL IPHONE BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 2 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL SAMSUNG BATTERIES.webp" alt="ALL SAMSUNG BATTERIES">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL SAMSUNG BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 3 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL PIXEL BATTERIES.jpg" alt="ALL PIXEL BATTERIES">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL PIXEL BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 4 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL TECNO SMARTPHONES BATTERIES.jpg" alt="ALL TECNO SMARTPHONES BATTERIES">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL TECNO SMART PHONES' BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 5 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL ANDROID SMART PHONES' BATTERIES.webp" alt="ALL ANDROID SMART PHONES' BATTERIES">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL ANDROID SMART PHONES' BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 6 -->
+                <div class="product-card" data-category="batteries">
+                    <div class="product-image">
+                        <img src="images/ALL TECNO, ITEL, KGTEL,..... SMALL PHONES' BATTERIES.avif" alt="ALL TECNO, ITEL, KGTEL,..... SMALL PHONES' BATTERIES">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>ALL TECNO, ITEL, KGTEL,..... SMALL PHONES' BATTERIES</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-grid" id="hot-combs">
+            <h2 class="category-title">Hot combs (Hair dryers)</h2>
+            <div class="products-container">
+                <!-- Battery 1 -->
+                <div class="product-card" data-category="hot-combs">
+                    <div class="product-image">
+                        <img src="images/sanook dryer.jpg" alt="SANOOK HAIR DRYER">
+                        <div class="product-badge">Bestseller</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SANOOK HAIR DRYER</h3>
+                        <div class="price">30,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 2 -->
+                <div class="product-card" data-category="hot-combs">
+                    <div class="product-image">
+                        <img src="images/miralux hair dryer.webp" alt="MURALUX HAIR DRYER">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>MURALUX HAIR DRYER</h3>
+                        <div class="price">35,000 FRW</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 3 -->
+                <div class="product-card" data-category="hot-combs">
+                    <div class="product-image">
+                        <img src="images/HAIR DRYER FOR TRAVEL.jpeg" alt="HAIR DRYER FOR TRAVEL">
+                        <div class="product-badge">New</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>HAIR DRYER FOR TRAVEL</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 4 -->
+                <div class="product-card" data-category="hot-combs">
+                    <div class="product-image">
+                        <img src="images/Ikonic Hair Dryer Dynamite.webp" alt="Ikonic Hair Dryer Dynamite">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>Ikonic Hair Dryer Dynamite</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Battery 5 -->
+                <div class="product-card" data-category="hot-combs">
+                    <div class="product-image">
+                        <img src="images/SuperHP Hair Dryer.webp" alt="SuperHP Hair Dryer">
+                        <div class="product-badge">Premium</div>
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                    <div class="product-details">
+                        <h3>SuperHP Hair Dryer</h3>
+                        <div class="price">NEGOTIABLE</div>
+                        <div class="product-actions">
+                            <button class="buy-now">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest tech news and exclusive offers</p>
+            </div>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section" style="margin-left: 10px;">
+                <h3>BOBO250 Electronics shop</h3>
+                <p>Premium electronics for the modern lifestyle. Quality products with exceptional service.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ishimagizwe-debonheur-425503214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/BOBO__250?t=iwSqY0QXDpoEQZZDho7vqQ&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/bobo__250electronicsshop?igsh=MjVqbmlmNmkyMTh4" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@bobo__250?_t=ZM-8x2waFA7CHl&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="products.html#phones">Phones</a></li>
+                    <li><a href="products.html#headphones">Headphones</a></li>
+                    <li><a href="products.html#smartwatches">Smart Watches</a></li>
+                    <li><a href="products.html#accessories">Accessories</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="https://form.jotform.com/251587117576567" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Musanze, Karisimbi</li>
+                    <li><i class="fas fa-phone"></i> +250 781 370 531</li>
+                    <li><i class="fas fa-envelope"></i> info@bobo250shop.rw</li>
+                </ul>
+            </div>
+        </div>
+        
+<div class="footer-bottom">
+    <div class="footer-grid">
+        <p class="copyright">&copy; 2025 BOBO250 Electronics shop. All rights reserved.</p>
+        <div class="developer">
+            <span class="developer-text">Developed by THE SEMICOLON Company</span>
+            <img src="images/SEMICOLON.png" class="developer-logo" alt="SEMICOLON">
+        </div>
+    </div>
+</div>
+    </footer>
+
+
+    <!-- Quick View Modal -->
+    <div class="modal" id="quickViewModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-product">
+                <div class="modal-product-image">
+                    <img src="" alt="" id="modalProductImage">
+                </div>
+                <div class="modal-product-details">
+                    <h2 id="modalProductName"></h2>
+                    <div class="price" id="modalProductPrice"></div>
+                    <div class="product-description">
+                        <p id="modalProductDescription"></p>
+                    </div>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
