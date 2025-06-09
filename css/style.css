@@ -661,12 +661,6 @@ body.menu-open {
     padding: 80px 0;
     background-color: var(--gray-color);
 }
-/* Featured Products - Horizontal Layout */
-.featured-products {
-    padding: 80px 0;
-    background-color: var(--gray-color);
-    overflow-x: auto; /* Allows horizontal scrolling on mobile */
-}
 
 .featured-products .section-header {
     display: flex;
@@ -679,53 +673,46 @@ body.menu-open {
     margin-right: auto;
 }
 
+/* Default mobile-first approach - stacked layout */
 .featured-products .products-grid {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
     gap: 25px;
     padding: 20px;
-    padding-bottom: 40px; /* Extra space for scroll indication */
     max-width: 1200px;
     margin: 0 auto;
-    scroll-snap-type: x mandatory; /* Better scrolling experience */
 }
 
 .featured-products .product-card {
-    flex: 0 0 280px; /* Fixed width for each card */
-    scroll-snap-align: start; /* Better scrolling experience */
-    margin-bottom: 0; /* Remove any default margins */
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 0;
 }
 
-/* Hide scrollbar but keep functionality */
-.featured-products::-webkit-scrollbar {
-    display: none;
-}
-
-/* Responsive adjustments */
+/* Desktop layout - horizontal */
 @media (min-width: 992px) {
-    .featured-products {
-        overflow-x: visible; /* Disable scrolling on desktop */
-    }
-    
     .featured-products .products-grid {
+        flex-direction: row; /* Horizontal layout */
         flex-wrap: wrap;
         justify-content: center;
         padding: 0 20px;
     }
     
     .featured-products .product-card {
-        flex: 0 0 calc(25% - 25px); /* 4 items per row */
+        flex: 0 0 calc(25% - 25px); /* 4 items per row with gap */
+        max-width: calc(25% - 25px);
     }
 }
 
-@media (max-width: 768px) {
-    .featured-products .product-card {
-        flex: 0 0 250px; /* Slightly smaller cards on tablet */
+/* Tablet layout - adjust if needed */
+@media (min-width: 768px) and (max-width: 991px) {
+    .featured-products .products-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
-}
-
-@media (max-width: 576px) {
+    
     .featured-products .product-card {
-        flex: 0 0 220px; /* Even smaller cards on mobile */
+        flex: 0 0 calc(50% - 25px); /* 2 items per row */
+        max-width: calc(50% - 25px);
     }
 }
 
