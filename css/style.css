@@ -120,6 +120,7 @@ img {
 .main-nav ul {
     display: flex;
     gap: 30px;
+    margin-right: 10px;
 }
 
 .main-nav a {
